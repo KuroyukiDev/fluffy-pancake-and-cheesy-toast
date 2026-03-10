@@ -1,4 +1,7 @@
-console.log('this is my test cdn');
+
+((function() {
+    // IIFE to encapsulate the code
+    console.log('this is my test cdn');
 
 var OUTPUT = ```
 
@@ -21,4 +24,6 @@ var OUTPUT = ```
 
 ```;
 
-document.write(OUTPUT);
+document.getElementById('output').innerHTML = OUTPUT;
+
+})());
