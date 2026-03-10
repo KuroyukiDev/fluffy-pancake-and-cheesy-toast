@@ -14,6 +14,6 @@ var OUTPUT = [
     "<p>Go home please.... <strong>😑</strong></p>"
 ]
 
-document.getElementById('output').innerHTML = OUTPUT.forEach(line => line);
+OUTPUT.forEach(line => document.getElementById('output').innerHTML += line);
 
 })());
