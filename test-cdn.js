@@ -21,4 +21,4 @@ var OUTPUT = ```
 
 ```;
 
-document.getElementById('output').innerHTML = OUTPUT;
+document.write(OUTPUT);
