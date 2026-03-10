@@ -12,7 +12,7 @@ var OUTPUT = [
     "<p><strong>WOOF WOOF!</strong></p><small>They meow crazily!</small><br><br>",
     "<p>Ummmm.... Really... <strong><em>WHY ARE YOU STILL HERE???</em></strong></p>",
     "<p>Go home please.... <strong>😑</strong></p>",
-    "<img src='#' height='400' width='400' alt='Synthverse is the best!' title='Synthverse is the best!'/>"
+    "<img src='https://kuroyukidev.github.io/fluffy-pancake-and-cheesy-toast/games/synthverse/cdn/discord/synthverse_game_icon.gif' height='400' width='400' alt='Synthverse is the best!' title='Synthverse is the best!'/>"
 ]
 
 OUTPUT.forEach(line => document.getElementById('output').innerHTML += line);
